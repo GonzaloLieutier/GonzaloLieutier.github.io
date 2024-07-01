@@ -1,0 +1,95 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Tecno PC</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"> <h2>Tecno PC</h2></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destacado.html">Destacado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o consulta? ¡No dudes en hacernos saber!</p>
+        <form id="formulario">
+          <legend>Formulario de contacto</legend>
+          <label for="name">Nombre:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Ej: Juan Pérez"
+          />
+          <label for="email">Correo electrónico:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Ej: juanperez@example.com"
+          />
+          <label for="phone">Teléfono:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Ej: 555-1234"
+          />
+          <label for="message">Mensaje:</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Escribe tu mensaje aquí"
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <p>También puedes contactarnos a través de nuestras redes sociales:</p>
+        <ul class="redes">
+          <li>
+            <a href="https://www.facebook.com" target="_self" rel="nofollow"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://x.com/" target="_self" rel="nofollow">Twitter</a>
+          </li>
+          <li>
+            <a href="https://instagram.com/" target="_self" rel="nofollow"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Tecno PC 2024</p>
+    </footer>
+  </body>
+</html>
